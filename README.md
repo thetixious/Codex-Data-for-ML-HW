@@ -68,9 +68,8 @@ python run_pipeline.py --topic "mortgage risk prediction" --auto_approve
 - `reports/final_report.html` (финальный отчет в HTML)
 
 ### Codex CLI Skill-first режим (рекомендуется)
-▌ Активируй `@skills/codex_cli_pipeline/SKILL.md` и проведи меня по пайплайну для темы: 
-Активируйте готовый skill:
-`@skills/codex_cli_pipeline/SKILL.md`
+▌ Активируй `@skills/codex_cli_pipeline/SKILL.md` и проведи меня по пайплайну для темы:  ...
+
 
 Файл skill:
 - [skills/codex_cli_pipeline/SKILL.md](skills/codex_cli_pipeline/SKILL.md)
