@@ -1,1 +1,4 @@
 .envar
+.venv
+__pycache__
+.gitingore
