@@ -1,0 +1,204 @@
+{
+  "topic": "mortgage risk prediction",
+  "sources": [
+    "hf",
+    "kaggle",
+    "zenodo"
+  ],
+  "candidates": [
+    {
+      "source": "zenodo",
+      "dataset_id": "18329226",
+      "name": "Updated list of QPS-recommended microorganisms for safety risk assessments carried out by EFSA",
+      "url": "https://zenodo.org/records/18329226",
+      "description": " The European Food Safety Authority (EFSA) asked the Panel on Biological Hazards (BIOHAZ) to deliver a scientific Opinion on the maintenance of the list of qualified presumption of safety (QPS) biological agents. The QPS approach was developed by the EFSA Scientific Committee to provide a harmonised generic pre-evaluation to support safety risk assessments of biological agents intentionally introduced into the food and feed chain, in support of the concerned scientific Panels and Units in the fr",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "1214456",
+      "name": "100,000 histological images of human colorectal cancer and healthy tissue",
+      "url": "https://zenodo.org/records/1214456",
+      "description": "  Data Description &quot;NCT-CRC-HE-100K&quot;  \n\n \n\t This is a set of 100,000 non-overlapping image patches from hematoxylin &amp; eosin (H&amp;E) stained histological images of human colorectal cancer (CRC) and normal tissue. \n\t All images are 224x224 pixels (px) at 0.5 microns per pixel (MPP). All images are color-normalized using Macenko&#39;s method (http://ieeexplore.ieee.org/abstract/document/5193250/, DOI  10.1109/ISBI.2009.5193250 ). \n\t Tissue classes are: Adipose (ADI), background (BAC",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "8120114",
+      "name": "OpenFoodTox: EFSA's chemical hazards database",
+      "url": "https://zenodo.org/records/8120114",
+      "description": "  Background: EFSA's remit&nbsp;and chemical risk assessment of regulated products and contaminants  \n The European Food Safety Authority (EFSA) has the remit to provide scientific advice to risk managers and decision makers through risk assessment and risk communication on issues related to &ldquo;food and feed safety, animal health and welfare, plant health, nutrition, and environmental issues&rdquo;. Risk assessment has been defined as \"a scientifically based process consisting of four steps:",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "6894273",
+      "name": "Global Mangrove Watch (1996 - 2020) Version 3.0 Dataset",
+      "url": "https://zenodo.org/records/6894273",
+      "description": " This study has used L-band Synthetic Aperture Radar (SAR) global mosaic datasets from the Japan Aerospace Exploration Agency (JAXA) for 11 epochs from 1996 to 2020 to develop a long-term time-series of global mangrove extent and change. The study used a map-to-image approach to change detection where the baseline map (GMW v2.5) was updated using thresholding and a contextual mangrove change mask. This approach was applied between all image-date pairs producing 10 maps for each epoch, which were",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "14669616",
+      "name": "Bluesky Social Dataset",
+      "url": "https://zenodo.org/records/14669616",
+      "description": " Bluesky Social Dataset \n Pollution of online social spaces caused by rampaging d/misinformation is a growing societal concern. However, recent decisions to reduce access to social media APIs are causing a shortage of publicly available, recent, social media data, thus hindering the advancement of computational social science as a whole. We present a large, high-coverage dataset of social interactions and user-generated content from Bluesky Social to address this pressing issue. \n The dataset co",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "17901363",
+      "name": "NGFS Climate Scenarios Data Set",
+      "url": "https://zenodo.org/records/17901363",
+      "description": "  Download information  \n  Please do not request a data download here.  \n Rather, the data is available for download at the&nbsp; NGFS Scenario Explorer  under this  download link:   https://data.ece.iiasa.ac.at/ngfs/#/downloads . In order to download click on  Guest login.  You will be forwarded to the downloads page. At the  bottom  of the  downloads  page you can download the data. \n The license permits use of the scenario ensemble for scientific research and commercial use, but restricts red",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "3765780",
+      "name": "CODE-test: An annotated 12-lead ECG dataset",
+      "url": "https://zenodo.org/records/3765780",
+      "description": " # Annotated 12 lead ECG dataset\n\nContain 827 ECG tracings from different patients, annotated by several cardiologists, residents and medical students. It is used as test set on the paper: &quot;Automatic diagnosis of the 12-lead ECG using a deep neural network&quot;. https://www.nature.com/articles/s41467-020-15432-4.\n\nIt contain annotations about 6 different ECGs abnormalities:\n- 1st degree AV block (1dAVb);\n- right bundle branch block (RBBB);\n- left bundle branch block (LBBB);\n- sinus bradyca",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "10390295",
+      "name": "ARCADE: Automatic Region-based Coronary Artery Disease diagnostics using x-ray angiography imagEs Dataset",
+      "url": "https://zenodo.org/records/10390295",
+      "description": " ARCADE: Automatic Region-based Coronary Artery Disease diagnostics using x-ray angiography imagEs Dataset Phase 2 consist of two folders with 300 images in each of them as well as annotations.&nbsp; \n ARCADE: Automatic Region-based Coronary Artery Disease diagnostics using x-ray angiography imagEs Dataset Phase 1 consists of two datasets of XCA images for each of two tasks of ARCADE challenge.&nbsp;The first task includes in total 1200 coronary vessel tree images, which are divided into train(1",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "3966543",
+      "name": "SONYC Urban Sound Tagging (SONYC-UST): a multilabel dataset from an urban acoustic sensor network",
+      "url": "https://zenodo.org/records/3966543",
+      "description": "  SONYC Urban Sound Tagging (SONYC-UST): a multilabel dataset from an urban acoustic sensor network  \n\n Version 2.3, September 2020 \n\n &nbsp; \n\n  Created by  \n\n Mark Cartwright (1,2,3), Jason Cramer (1), Ana Elisa Mendez Mendez (1), Yu Wang (1), Ho-Hsiang Wu (1), Vincent Lostanlen (1,2,4), Magdalena Fuentes (1), Graham Dove (2), Charlie Mydlarz (1,2), Justin Salamon (5), Oded Nov (6), Juan Pablo Bello (1,2,3) \n\n \n\t Music and Audio Research Lab, New York University \n\t Center for Urban Science and",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "7525955",
+      "name": "Weather prediction dataset",
+      "url": "https://zenodo.org/records/7525955",
+      "description": " Dataset created for machine learning and deep learning training and teaching purposes. \nIt can, for instance, be used for classification, regression, and forecasting tasks. \nComplex enough to demonstrate realistic issues such as overfitting and unbalanced data, while still remaining intuitively accessible. \n\n  Description and units of weather features:  \n\n Data includes the following features/variables for several European cities: \n\n \n\t \n\t\t \n\t\t\t Feature (type) \n\t\t\t Column name \n\t\t\t Description ",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "3765872",
+      "name": "NEON Tree Crowns Dataset",
+      "url": "https://zenodo.org/records/3765872",
+      "description": "  Abstract  \n\n The NeonTreeCrowns&nbsp;dataset is a set of individual level crown estimates for 100 million trees at 37 geographic sites across the United States surveyed by the National Ecological Observation Network&rsquo;s Airborne Observation Platform. Each rectangular bounding box crown prediction includes height, crown area, and spatial location.&nbsp; \n\n  How can I see the data?  \n\n A web server to look through predictions is available through  idtrees.org  \n\n  Dataset Organization  \n\n Th",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "6406114",
+      "name": "RAD-ChestCT Dataset",
+      "url": "https://zenodo.org/records/6406114",
+      "description": "  Overview  \n\n The RAD-ChestCT dataset is a large medical imaging dataset developed by Duke MD/PhD student Rachel Draelos during her Computer Science PhD supervised by Lawrence Carin. The full dataset includes 35,747 chest CT scans from 19,661 adult patients. This Zenodo repository contains an initial release of 3,630 chest CT scans, approximately 10% of the dataset.&nbsp;This dataset is of significant interest to the machine learning and medical imaging research communities. \n\n  Papers  \n\n The ",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "15299138",
+      "name": "SWOT River Database (SWORD)",
+      "url": "https://zenodo.org/records/15299138",
+      "description": "  VERSION NOTES:  \n  v17 versus v17b  \n \n \"Type\" change for 1662 reaches and associated nodes globally. Please reference the Product Description Document for the \"Type\" identifier definition.&nbsp; \n Updates to reach and node lengths and distance-from-outlet variable to correct a bug in the node length calculation in select reaches (&lt;2% of reaches were impacted globally). \n SWORD v17b is the official version for SWOT&nbsp; Version D &nbsp;  RiverSP Vector Products  . \n \n The project and publi",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "2575599",
+      "name": "The Global Long-term Microwave Vegetation Optical Depth Climate Archive VODCA",
+      "url": "https://zenodo.org/records/2575599",
+      "description": "  Related paper containing detailed description :   Moesinger et al. (2020)   \n\n Vegetation optical depth (VOD) describes the attenuation of radiation by plants. VOD a function of frequency as well as vegetation water content, and by extension biomass. VOD has many possible applications in studies of the biosphere, such as biomass monitoring, drought monitoring, phenology analyzes or fire risk management. \n\n We merged VOD observations from various spaceborne sensors (SSM/I, TMI, AMSR-E, AMSR2, W",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "999150",
+      "name": "The RE-Europe data set",
+      "url": "https://zenodo.org/records/999150",
+      "description": " This data set models the continental European electricity system, including demand and renewable energy inflows for the period 2012-2014. \n\n The main features of the data set are: \n\n \n\t High resolution (~50km, 1 hour) and large extent (Mainland Europe, 3 years) \n\t Technical &amp; economic characteristics of generators from real-world data and best available estimates \n\t Synthetic wind and solar observations and forecasts from numerical weather prediction models, describing the full spatio-tempo",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "15846963",
+      "name": "Wind Turbine SCADA Data For Early Fault Detection",
+      "url": "https://zenodo.org/records/15846963",
+      "description": " This dataset is published together with the  paper  \"CARE to Compare: A real-world dataset for anomaly detection in wind turbine data\" which explains the dataset in detail and defines the CARE score that can be used to evaluate anomaly detection algorithms on this dataset. When referring to this dataset, please cite the paper mentioned in the related work section.&nbsp; \n The data consists of 95 datasets, containing 89 years of SCADA time series distributed across 36 different wind turbines fro",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "16849846",
+      "name": "CancerMine",
+      "url": "https://zenodo.org/records/16849846",
+      "description": " This describes the output files for the  CancerMine  project. These files are loaded directly by the  CancerMine viewer . The code for this viewer is available in the CancerMine Github repo if you want to run it independently. Each file is a tab-delimited file with a header, no comments and no quoting. \n\n You likely want  cancermine_collated.tsv  if you just want the list of cancer gene roles. If you want the supporting sentences, look at  cancermine_sentences.tsv . You can use the  matching_id",
+      "relevance_score": 5.7
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "15363279",
+      "name": "European database of processing factors for pesticides residues in food",
+      "url": "https://zenodo.org/records/15363279",
+      "description": " EFSA is regularly evaluating pesticide occurrence data in food generated under the official monitoring programs of Member States with respect to consumer exposure and risk assessment. Most of these data refer to raw commodities (RAC) because maximum residue levels established under European legislation reflect pesticide residues only in the RAC. However, food processing operations can have decisive effects on pesticide residue levels and therefore consumer exposure. This database has been devel",
+      "relevance_score": 5.65
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "2630551",
+      "name": "The LAMBADA dataset",
+      "url": "https://zenodo.org/records/2630551",
+      "description": " We introduce LAMBADA, a dataset to evaluate the capabilities of computational models for text understanding by means of a word prediction task. LAMBADA is a collection of narrative passages sharing the characteristic that human subjects are able to guess their last word if they are exposed to the whole passage, but not if they only see the last sentence preceding the target word. To succeed on LAMBADA, computational models cannot simply rely on local context, but must be able to keep track of i",
+      "relevance_score": 5.59
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "519260",
+      "name": "Proteomic analysis of silenced cathepsin B expression suggests non-proteolytic cathepsin B functionality.",
+      "url": "https://zenodo.org/records/519260",
+      "description": " A list of human protein uniprot IDs. The proteins were identified by LC-MS/MS in the cellular supernatant of MDA-MB-231 cells, originally published in: \n\n F.C. Sigloch, J.D. Knopf, J. Weißer, A. Gomez-Auli, M.L. Biniossek, A. Petrera, et al., Proteomic analysis of silenced cathepsin B expression suggests non-proteolytic cathepsin B functionality, Biochim. Biophys. Acta - Mol. Cell Res. 1863 (2016) 2700–2709. doi:10.1016/j.bbamcr.2016.08.005. https://www.ncbi.nlm.nih.gov/pubmed/27526672 ",
+      "relevance_score": 1.99
+    }
+  ],
+  "selected": [
+    {
+      "source": "zenodo",
+      "dataset_id": "18329226",
+      "name": "Updated list of QPS-recommended microorganisms for safety risk assessments carried out by EFSA",
+      "url": "https://zenodo.org/records/18329226",
+      "description": " The European Food Safety Authority (EFSA) asked the Panel on Biological Hazards (BIOHAZ) to deliver a scientific Opinion on the maintenance of the list of qualified presumption of safety (QPS) biological agents. The QPS approach was developed by the EFSA Scientific Committee to provide a harmonised generic pre-evaluation to support safety risk assessments of biological agents intentionally introduced into the food and feed chain, in support of the concerned scientific Panels and Units in the fr",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "1214456",
+      "name": "100,000 histological images of human colorectal cancer and healthy tissue",
+      "url": "https://zenodo.org/records/1214456",
+      "description": "  Data Description &quot;NCT-CRC-HE-100K&quot;  \n\n \n\t This is a set of 100,000 non-overlapping image patches from hematoxylin &amp; eosin (H&amp;E) stained histological images of human colorectal cancer (CRC) and normal tissue. \n\t All images are 224x224 pixels (px) at 0.5 microns per pixel (MPP). All images are color-normalized using Macenko&#39;s method (http://ieeexplore.ieee.org/abstract/document/5193250/, DOI  10.1109/ISBI.2009.5193250 ). \n\t Tissue classes are: Adipose (ADI), background (BAC",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "8120114",
+      "name": "OpenFoodTox: EFSA's chemical hazards database",
+      "url": "https://zenodo.org/records/8120114",
+      "description": "  Background: EFSA's remit&nbsp;and chemical risk assessment of regulated products and contaminants  \n The European Food Safety Authority (EFSA) has the remit to provide scientific advice to risk managers and decision makers through risk assessment and risk communication on issues related to &ldquo;food and feed safety, animal health and welfare, plant health, nutrition, and environmental issues&rdquo;. Risk assessment has been defined as \"a scientifically based process consisting of four steps:",
+      "relevance_score": 5.83
+    },
+    {
+      "source": "zenodo",
+      "dataset_id": "6894273",
+      "name": "Global Mangrove Watch (1996 - 2020) Version 3.0 Dataset",
+      "url": "https://zenodo.org/records/6894273",
+      "description": " This study has used L-band Synthetic Aperture Radar (SAR) global mosaic datasets from the Japan Aerospace Exploration Agency (JAXA) for 11 epochs from 1996 to 2020 to develop a long-term time-series of global mangrove extent and change. The study used a map-to-image approach to change detection where the baseline map (GMW v2.5) was updated using thresholding and a contextual mangrove change mask. This approach was applied between all image-date pairs producing 10 maps for each epoch, which were",
+      "relevance_score": 5.83
+    }
+  ]
+}

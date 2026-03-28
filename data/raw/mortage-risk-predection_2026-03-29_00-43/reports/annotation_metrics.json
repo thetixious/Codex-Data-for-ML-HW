@@ -1,0 +1,15 @@
+{
+  "kappa": 0.0,
+  "agreement": 0.9798657718120806,
+  "label_distribution": {
+    "tier_2": 0.5017006802721088,
+    "tier_3": 0.24829931972789115,
+    "tier_4": 0.24829931972789115,
+    "tier_1": 0.0017006802721088435
+  },
+  "confidence_mean": 0.7746598639455782,
+  "confidence_median": 0.8,
+  "low_confidence_lt_0_7": 149,
+  "rows": 588,
+  "review_queue_rows": 149
+}

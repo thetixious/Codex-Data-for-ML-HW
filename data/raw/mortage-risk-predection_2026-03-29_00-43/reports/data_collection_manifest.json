@@ -1,0 +1,89 @@
+[
+  {
+    "source_idx": 1,
+    "source": {
+      "type": "api",
+      "name": "zenodo:18329226",
+      "endpoint": "https://zenodo.org/api/records",
+      "params": {
+        "q": "mortgage risk prediction",
+        "size": 50
+      },
+      "source_name": "api:zenodo",
+      "rename_map": {},
+      "keep_cols": []
+    },
+    "status": "ok",
+    "raw_path": "/Users/tix/itmo-mag/data pipeline/Codex-Data-for-ML-HW/data/raw/mortage-risk-predection_2026-03-29_00-43/data/api_api_zenodo.csv",
+    "unified_path": "/Users/tix/itmo-mag/data pipeline/Codex-Data-for-ML-HW/data/raw/mortage-risk-predection_2026-03-29_00-43/data/unified_1.csv",
+    "rename_map": {
+      "title": "text",
+      "status": "label",
+      "metadata.publication_date": "year"
+    },
+    "keep_cols": [
+      "title",
+      "status",
+      "metadata.publication_date",
+      "submitted",
+      "stats.views",
+      "stats.version_views",
+      "stats.version_unique_views",
+      "stats.version_unique_downloads",
+      "stats.version_downloads",
+      "stats.unique_views",
+      "stats.unique_downloads",
+      "stats.downloads",
+      "revision",
+      "recid",
+      "id",
+      "conceptrecid",
+      "updated",
+      "state",
+      "owners",
+      "modified",
+      "metadata.title",
+      "metadata.resource_type.type",
+      "metadata.resource_type.title",
+      "metadata.relations.version",
+      "metadata.license.id",
+      "metadata.doi",
+      "metadata.creators",
+      "metadata.access_right",
+      "links.versions",
+      "links.self_iiif_sequence"
+    ]
+  },
+  {
+    "source_idx": 2,
+    "source": {
+      "type": "hf",
+      "name": "13nishit/LoanApprovalPrediction",
+      "source_name": "hf:LoanApprovalPrediction",
+      "rename_map": {},
+      "keep_cols": []
+    },
+    "status": "ok",
+    "raw_path": "/Users/tix/itmo-mag/data pipeline/Codex-Data-for-ML-HW/data/raw/mortage-risk-predection_2026-03-29_00-43/data/hf_13nishit_LoanApprovalPrediction_train.csv",
+    "unified_path": "/Users/tix/itmo-mag/data pipeline/Codex-Data-for-ML-HW/data/raw/mortage-risk-predection_2026-03-29_00-43/data/unified_2.csv",
+    "rename_map": {
+      "Loan_Amount_Term": "value",
+      "Loan_Status": "label"
+    },
+    "keep_cols": [
+      "Loan_Amount_Term",
+      "Loan_Status",
+      "CoapplicantIncome",
+      "ApplicantIncome",
+      "LoanAmount",
+      "Credit_History",
+      "Property_Area",
+      "Loan_ID",
+      "Education",
+      "Married",
+      "Gender",
+      "Dependents",
+      "Self_Employed"
+    ]
+  }
+]

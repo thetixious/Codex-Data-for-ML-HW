@@ -1,0 +1,1 @@
+Using Active Learning (entropy) reached random-baseline quality with 100 fewer labeled examples (66.7%).

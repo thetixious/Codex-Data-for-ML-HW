@@ -1,0 +1,61 @@
+project_name: codex-data-pipeline-hw
+task_name: universal-data-pipeline
+task_description: |
+  Discover and collect datasets for a user-selected ML domain,
+  then run quality audit, annotation with HITL, and active learning.
+
+run:
+  timezone: Europe/Moscow
+  min_sources: 2
+
+download:
+  max_file_size_mb: 300
+
+schema:
+  target_col: auto_label
+  text_col: text
+  confidence_col: confidence
+
+quality:
+  min_issue_types: 3
+  outlier_method: iqr
+  default_strategy: smart
+  default_rationale: Selected as balanced strategy after reviewing issue report and preserving data coverage.
+
+annotation:
+  # If rules are omitted, pipeline auto-detects a label column or builds quantile rules.
+  column: null
+  default_threshold: 0.7
+  fallback_label: Unknown
+  fallback_conf: 0.5
+  class_defs: {}
+  display_cols: []
+  rules: []
+
+active_learning:
+  n_start: 50
+  iterations: 5
+  batch_size: 20
+  test_size: 0.2
+  random_state: 42
+  metric: f1
+
+data_collection:
+  # Optional: manual source definitions. If empty, discovery mode is used.
+  sources: []
+
+  # Auto-discovery settings for arbitrary domains.
+  discovery:
+    topic: null
+    sources:
+      - hf
+      - kaggle
+      - zenodo
+    limit_per_source: 20
+    select_top_k: 4
+    min_score: 2.0
+
+  default_keep_cols: []
+
+  unify:
+    max_cols: 30

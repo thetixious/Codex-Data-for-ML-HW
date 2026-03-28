@@ -1,0 +1,6 @@
+task_name: mortage risk predection
+task_description: 'Discover and collect datasets for a user-selected ML domain,
+
+  then run quality audit, annotation with HITL, and active learning.
+
+  '

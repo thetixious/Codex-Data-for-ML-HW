@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Final Pipeline Report</title>
+  <style>
+    :root {
+      --bg:#f4f6fb; --card:#fff; --ink:#1f2937; --muted:#6b7280; --line:#d1d5db; --accent:#0f766e;
+    }
+    body { margin:0; font-family:Segoe UI,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+    .wrap { max-width:1200px; margin:0 auto; padding:24px; }
+    .hero { border-radius:16px; padding:24px; color:#fff; background:linear-gradient(120deg,#0f766e,#1d4ed8); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; margin-top:14px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
+    h1,h2,h3 { margin:0 0 8px; }
+    p { margin:0; color:var(--muted); }
+    ul { margin:8px 0 0 18px; }
+    li { margin:3px 0; }
+    table { border-collapse:collapse; width:100%; }
+    th,td { border:1px solid var(--line); padding:6px 8px; text-align:left; }
+  </style>
+</head>
+<body>
+  <div class='wrap'>
+    <div class='hero'>
+      <h1>Final Pipeline Report</h1>
+      <p>mortage risk predection</p>
+    </div>
+    <div class='grid'>
+      <div class='card'>
+        <h3>Dataset</h3>
+        <table>
+          <tr><th>Rows</th><td>588</td></tr>
+          <tr><th>Columns</th><td>44</td></tr>
+          <tr><th>Classes</th><td>tier_1, tier_2, tier_3, tier_4</td></tr>
+        </table>
+      </div>
+      <div class='card'>
+        <h3>Quality</h3>
+        <table>
+          <tr><th>Issue Types</th><td>2</td></tr>
+          <tr><th>Duplicates</th><td>0</td></tr>
+          <tr><th>Missing Columns</th><td>38</td></tr>
+        </table>
+      </div>
+      <div class='card'>
+        <h3>Annotation + HITL</h3>
+        <table>
+          <tr><th>Queue Rows</th><td>149</td></tr>
+          <tr><th>Kappa</th><td>0.0</td></tr>
+          <tr><th>Mean Confidence</th><td>0.7746598639455782</td></tr>
+        </table>
+      </div>
+      <div class='card'>
+        <h3>Active Learning</h3>
+        <table>
+          <tr><th>Random F1</th><td>0.829635220917006</td></tr>
+          <tr><th>Entropy F1</th><td>0.9196670538133954</td></tr>
+          <tr><th>Random Accuracy</th><td>0.847457627118644</td></tr>
+          <tr><th>Entropy Accuracy</th><td>0.9152542372881356</td></tr>
+        </table>
+      </div>
+      <div class='card' style='grid-column:1/-1'>
+        <h3>Artifacts</h3>
+        <ul><li><a href='reports/eda_report.html'>EDA HTML</a></li><li><a href='reports/quality_report.html'>Quality HTML</a></li><li><a href='reports/al_learning_curves.html'>AL HTML</a></li><li><a href='labeling/annotation_spec.md'>Annotation Spec</a></li><li><a href='labeling/labelstudio_import.json'>LabelStudio JSON</a></li><li><a href='data/labeled_dataset.csv'>Labeled Dataset</a></li></ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
